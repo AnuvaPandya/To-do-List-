@@ -48,6 +48,7 @@ const CourseInput = (props) => {
       return;
     }
     props.onAddGoal(enteredValue);
+    console.log(enteredValue);
   };
 
   return (
