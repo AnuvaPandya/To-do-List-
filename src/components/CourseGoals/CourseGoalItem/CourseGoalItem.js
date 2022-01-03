@@ -8,7 +8,6 @@ const CourseGoalItem = props => {
   const deleteHandler = () => {
     // setDeleteText('(Deleted!)');
     props.onDelete(props.id);
-    console.log(props.id);
   };
 
   return (
